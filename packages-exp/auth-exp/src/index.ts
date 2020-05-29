@@ -27,6 +27,7 @@ export { inMemoryPersistence } from './core/persistence/in_memory';
 export { indexedDBLocalPersistence } from './core/persistence/indexed_db';
 
 // core/strategies
+export { signInWithCustomToken } from './core/strategies/custom_token';
 export {
   sendPasswordResetEmail,
   confirmPasswordReset,
